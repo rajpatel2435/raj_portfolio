@@ -1,18 +1,27 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+
 import About from "./About";
-import Navbar from "./Navbar";
+
 import Projects from "./Projects";
-import skrollr from "./skrollr";
+
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import Link from "next/link";
+
+import Hnavbar from "./Hnavbar";
 
 const Home: NextPage = () => {
    gsap.registerPlugin(ScrollTrigger);
+
+   useLayoutEffect(() => {
+
+    
+    
+    return () => {
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    }  
+  }, []);
    useEffect(() => {
 
 
@@ -32,18 +41,21 @@ const Home: NextPage = () => {
     });
   }, []);
   return (
+    <>
+   
     <div className="main2">
+ <Hnavbar /> 
      <div className="-mr-24 ml-7 mt-24 text-8xl z-10 fixed text-white p-0 ">
 
    <Link ref={Projects} href={"Projects"}>.</Link> <br/>
-   <Link ref={About} href={"About"}>.</Link>  <br/>
+   <Link ref={About} href={"About"} >.</Link>  <br/>
    <Link ref={Projects} href={"Projects"}>.</Link> <br/>
    <Link ref={Projects} href={"Projects"}>.</Link>  <br/>
       </div>
       <div id="container">
-  
+
         <div className="panel" id="component">
-          
+  
         <Projects />
         </div>
         <div className="panel" id="component">
@@ -55,7 +67,7 @@ const Home: NextPage = () => {
         </div>
       </div>
     
- 
+     </>
   );
 };
 

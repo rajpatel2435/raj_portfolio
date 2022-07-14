@@ -1,10 +1,12 @@
 import React from 'react'
 import dataSorting from './Images/data_srt.png'
 import Image from 'next/image'
+import Navbar from './Navbar'
 
 function Data_sorting() {
   return (
     <div>
+      <Navbar/>
                         <div className='flex min-h-[80vh] font-extrabold  bg-gradient-to-r from-[#3378FF] to-[#9442FE]  text-white text-8xl justify-center items-center'>Data Sorting <span className='hover:scale-125'> 📊️ </span> </div>
          <div>   
     <div>

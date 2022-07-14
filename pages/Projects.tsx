@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Hnavbar from './Hnavbar'
 
 import Project_info from './Project_info'
 
@@ -7,6 +8,7 @@ import Project_info from './Project_info'
 function Projects() {
   return (
     <div className='flex min-h-screen font-extrabold bg-[#4d4dff] text-white text-8xl justify-center items-center'>
+ 
     <div className='hover:scale-125'>
         <Link  className='transition ease-in-out delay-150'  href={'Project_info'}>
 Projects
