@@ -10,6 +10,7 @@ import { useEffect, useLayoutEffect } from "react";
 import Link from "next/link";
 
 import Hnavbar from "./Hnavbar";
+import Footer from "./Footer";
 
 const Home: NextPage = () => {
    gsap.registerPlugin(ScrollTrigger);
@@ -45,13 +46,7 @@ const Home: NextPage = () => {
    
     <div className="main2">
  <Hnavbar /> 
-     <div className="-mr-24 ml-7 mt-24 text-8xl z-10 fixed text-white p-0 ">
-
-   <Link ref={Projects} href={"Projects"}>.</Link> <br/>
-   <Link ref={About} href={"About"} >.</Link>  <br/>
-   <Link ref={Projects} href={"Projects"}>.</Link> <br/>
-   <Link ref={Projects} href={"Projects"}>.</Link>  <br/>
-      </div>
+   
       <div id="container">
       <div className="panel" id="component">
           
@@ -61,12 +56,15 @@ const Home: NextPage = () => {
   
         <Projects />
         </div>
-   
-     
-
-        </div>
-      </div>
+        </div> 
+     <div className="text-xl text-white z-40">
+  
+        <Footer/>
+  
+            </div>
     
+      </div>
+
      </>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react'
 import Router from 'next/router'
+import Footer from './Footer'
 function Hnavbar() {
   return (
 
@@ -15,7 +16,10 @@ function Hnavbar() {
       <div className='mt-14 mr-14 cursor-pointer font-bold' onClick={()=> Router.push('./Contact')}>
        Contact
       </div>
+
+
 </div>
+
 
 
  
