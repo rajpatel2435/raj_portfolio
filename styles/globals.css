@@ -101,8 +101,38 @@ a {
 
 
 
+.dat{
+  background-image: url('../pages/Images/couple-6491659.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  
 
+  
+}
+.pcA{
+  background-image: url('../pages/Images/andy-holmes-EOAKUQcsFIU-unsplash.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+  color: whitesmoke;
+  font-weight: bolder;
+  
 
+  
+}
+.pros{
+  background-image: url('../pages/Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg');
+  background-attachment: fixed;
+  background-size: cover; 
+  color:white;
+}
+.ds{
+  background-image: url('../pages/Images/luke-chesser-JKUTrJ4vK00-unsplash.jpg');
+  background-attachment: fixed;
+  background-size: cover; 
+  color: whitesmoke;
+  width: 100%;
+  height: 100%;
+}
 
 
 .box:hover , .box3:hover {

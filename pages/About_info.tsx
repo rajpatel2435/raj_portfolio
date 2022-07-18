@@ -31,7 +31,7 @@ function About_info() {
         <div className='ml-40 md:ml-24 hover:scale-125'>Hello world <span className=''>🙏</span></div>
         <br />
         <div className='ml-10 text-8xl  md:ml-36'>I am a Web Developer, working in Montreal <br/>
-        <div className='text-2xl mt-40 text-zinc-400 mr-10'>
+        <div className='text-2xl mt-40 p-10 text-zinc-400 mr-10 mb-10'>
           If you are intrested in my work, please feel free to contact me at <a href='mailto:rajpatel2435@gmail.com' className='hover:text-white'>rajpatel2435@gmail.com</a> .
        I'll be glad to more know about you and your projects.
      </div>
@@ -41,30 +41,30 @@ function About_info() {
 
       </div>
 
-      <div className='ml-48 mt-10 mb-10 md:p-10 text-6xl md:ml-[510px]'>
+      <div className='ml-24 mt-10 mb-10 md:p-10 text-6xl md:ml-[340px] lg:ml-[510px]'>
         Internship
 
       </div>
-      <div className='block ml-36  md:flex md:ml-40 '>
+      <div className='block ml-36  md:flex md:ml-40 lg:ml-[250px] '>
         <Image src={kaayu} height="200px" width='200px' className=' bg-cover' />
-        <div className='ml-2 mt-10 text-4xl md:ml-20 lg:ml-60'> WEB Integrator
-        <p className='text-2xl mt-10'>  Feb 2022 to Aug 2022
+        <div className='-ml-10 mt-10 text-4xl  md:ml-20 lg:ml-60'> WEB Integrator
+        <p className='text-2xl mt-10'> Kaayu Tech,Montreal <br/>Feb 2022- Aug 2022
           </p></div>
       </div>
 
-      <div className='ml-48 mt-10 mb-10 md:p-10 text-6xl md:ml-[510px]'>
+      <div className='ml-24 mt-10 mb-10 md:p-10 text-6xl md:ml-[340px]  lg:ml-[510px] '>
         Education
 
       </div>
-      <div className='block ml-36 md:flex md:ml-40 '>
+      <div className='block ml-24 md:flex md:ml-40 lg:ml-[250px]'>
         {/* <Image src={isi} height='100px' width='200px' className=' bg-cover rounded-full ' /> */}
         <Image src={isi}  className=' bg-cover' />
-        <div className='ml-2 mt-10 text-4xl md:ml-20 lg:ml-60'> WEB Integration 
+        <div className='mt-10 text-4xl md:ml-20 lg:ml-60'> WEB Integration 
         <p className='text-2xl mt-10'> ISI College,Montreal <br/>SEP2020- SEP2022
           </p></div>
       </div>
 
-      <div className='ml-48 mt-10 mb-10 md:p-10 text-6xl md:ml-[510px]'>
+      <div className='ml-48 mt-10 mb-10 md:p-10 text-6xl md:ml-[340px] lg:ml-[510px]'>
         Skills
       </div>
       <div className='block md:ml-48 m-5 lg:flex lg:ml-1 cursor-grab'>
@@ -128,8 +128,8 @@ function About_info() {
 
       </div>
       </div>
-      <div className='block md:ml-1 m-5 lg:flex  cursor-grab'>
-      <div className='ml-24 lg:ml-1'>
+      <div className='block md:ml-48 m-5 lg:flex lg:ml-1 cursor-grab'>
+      <div className=' lg:ml-1'>
           <div className="box">
             <div className="content ">
               <Image src={react} className='img  rounded-full  hover:scale-90' />
@@ -233,7 +233,7 @@ function About_info() {
       
       </div>
       <div className='block md:ml-48 m-5 lg:flex  cursor-grab'>
-      <div className='lg:-ml-40 md:ml-24 mb-3 mt-3'>
+      <div className='ml-24 lg:-ml-40 md:ml-24 mb-3 mt-3'>
           <div className="box">
             <div className="content ">
               <Image src={xd} className='img  rounded-full  hover:scale-90' />

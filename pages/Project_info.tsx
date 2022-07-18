@@ -33,21 +33,21 @@ const Home: NextPage = () => {
    return (
     <div className=' overflow-x-hidden'>
 <Hnavbar/>
-          <div id="container" >
-        <div className=" lg:text-8xl panel flex justify-center items-center bg-black text-4xl text-white" id="component">
+          <div id="container" className=' hover:scale-125' >
+        <div className=" border-green-500 border-[6px] lg:text-8xl panel flex justify-center items-center text-4xl dat text-white font-bold  " id="component">
  
         <Link href="Dating_site" ref={Dating_site}>
 
         
-        <a> Dating site</a>
+        <a className=''> Dating site</a>
          </Link>
         </div>
-        <div className="lg:text-8xl panel flex justify-center items-center bg-gradient-to-r from-[#FFE53b] to-[#FF2525] text-4xl" id="component">
+        <div className=" border-yellow-500 border-[6px] lg:text-8xl panel flex justify-center items-center bg-green-500 text-4xl ds" id="component">
           <Link href='Data_sorting' ref={Data_sorting}>
           <a>Data_Sorting</a>
         </Link>
         </div>
-        <div  className=" pc_A lg:text-8xl panel flex justify-center items-center bg-gradient-to-r from-[#00ff5b] to-[#0014ff] text-4xl" id="component">
+        <div  className=" pc_A lg:text-8xl panel flex justify-center items-center bg-[#7d50b9] text-4xl pcA" id="component">
           <Link href='Pc_Automate' ref={Pc_Automate}>
             <a>PC_Automate</a>
           </Link>
