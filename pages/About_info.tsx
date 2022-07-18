@@ -52,7 +52,7 @@ function About_info() {
 
       </div>
       <div className='block ml-36  md:flex md:ml-40 lg:ml-[250px] '>
-        <Image src={kaayu} height="200px" width='200px' className=' bg-cover' />
+        <Image src={kaayu} alt="Kaayu" height="200px" width='200px' className=' bg-cover' />
         <div className='-ml-10 mt-10 text-4xl  md:ml-20 lg:ml-60'> WEB Integrator
         <p className='text-2xl '> Kaayu Tech,Montreal <br/>Feb 2022- Aug 2022
           </p></div>
@@ -64,7 +64,7 @@ function About_info() {
       </div>
       <div className='block ml-24 md:flex md:ml-40 lg:ml-[250px]'>
         {/* <Image src={isi} height='100px' width='200px' className=' bg-cover rounded-full ' /> */}
-        <Image src={isi}  className=' bg-cover' />
+        <Image src={isi} alt="ISI college"  className=' bg-cover' />
         <div className=' text-4xl md:ml-20 lg:ml-60'> WEB Integration 
         <p className='text-2xl '> ISI College,Montreal <br/>SEP2020- SEP2022
           </p></div>
@@ -78,7 +78,7 @@ function About_info() {
         <div className='ml-24  mb-3 mt-3 md:ml-24 lg:ml-1'>
           <div className="box">
             <div className="content ">
-              <Image src={html} className='img  rounded-full  hover:scale-90' />
+              <Image src={html}  alt="Html" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>HTML<span><br />95%</span></h2>
 
               {/* </div> */}
@@ -91,7 +91,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={css} className='img  rounded-full  hover:scale-90' />
+              <Image src={css}  alt="CSS"className='img  rounded-full  hover:scale-90' />
               <h2 className=''>CSS<span><br />95%</span></h2>
 
               {/* </div> */}
@@ -103,7 +103,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={js} height='200px' width='200px' className='img    hover:scale-90' />
+              <Image src={js} alt="JS" height='200px' width='200px' className='img    hover:scale-90' />
               <h2 className=''>JS<span><br />89%</span></h2>
 
               {/* </div> */}
@@ -122,7 +122,7 @@ function About_info() {
       <div className=' ml-24 mb-3 mt-3  '>
           <div className=" box">
             <div className="content ">
-              <Image src={sql} height='200px' width='200px' className=' img hover:scale-90' />
+              <Image src={sql}  alt="SQL"height='200px' width='200px' className=' img hover:scale-90' />
               <h2 className=''>SQL<span><br />82%</span></h2>
 
               {/* </div> */}
@@ -138,7 +138,7 @@ function About_info() {
       <div className='ml-20 lg:ml-1'>
           <div className="box">
             <div className="content ">
-              <Image src={react} className='img  rounded-full  hover:scale-90' />
+              <Image src={react} alt="React" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>React<span><br />80%</span></h2>
 
               {/* </div> */}
@@ -151,7 +151,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={next} className='img  rounded-full  hover:scale-90' />
+              <Image src={next} alt="Next" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>NEXT Js<span><br />80%</span></h2>
 
               {/* </div> */}
@@ -164,7 +164,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={sass}  height='200PX' width='200px' className='img   hover:scale-90' />
+              <Image src={sass}  alt="sass" height='200PX' width='200px' className='img   hover:scale-90' />
               <h2 className=''>SASS<span><br />86%</span></h2>
 
               {/* </div> */}
@@ -176,7 +176,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={php} height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
+              <Image src={php} alt="PHP" height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
               <h2 className=''>PHP<span><br />75%</span></h2>
 
               {/* </div> */}
@@ -190,7 +190,7 @@ function About_info() {
       <div className='ml-24 mt-3 mb-3  lg:-ml-44 '>
           <div className="box">
             <div className="content ">
-              <Image src={github} className='img  rounded-full  hover:scale-90' />
+              <Image src={github} alt="Github" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>Github<span><br />80%</span></h2>
 
               {/* </div> */}
@@ -203,7 +203,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={wordpress} className='img  rounded-full  hover:scale-90' />
+              <Image src={wordpress} alt="wordPress" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>WordPress<span><br />88%</span></h2>
 
               {/* </div> */}
@@ -215,7 +215,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content mt-16 items-center ">
-              <Image src={tailwind} className='img rounded-full ' />
+              <Image src={tailwind} alt="tailwind" className='img rounded-full ' />
               <h2 className=''>Tailwind<span className=''><br />95%</span></h2>
 
               {/* </div> */}
@@ -227,7 +227,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={jquery} className='img  rounded-full  hover:scale-90' />
+              <Image src={jquery} alt="jquery" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>JQuery<span><br />80%</span></h2>
 
               {/* </div> */}
@@ -242,7 +242,7 @@ function About_info() {
       <div className='ml-24 lg:-ml-40 md:ml-24 mb-3 mt-3'>
           <div className="box">
             <div className="content ">
-              <Image src={xd} className='img  rounded-full  hover:scale-90' />
+              <Image src={xd} alt="XD" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>XD<span><br />91%</span></h2>
 
               {/* </div> */}

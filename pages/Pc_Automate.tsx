@@ -43,7 +43,7 @@ function Pc_Automate() {
 <p className='ml-4 text-2xl mb-6'>VIEW<span className='ml-28 md:ml-96'><a href="https://github.com/rajpatel2435/Pc_Automate" >Pc Automate</a> </span> </p>
 </div>
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={pcAutomate} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
+<Image src={pcAutomate} alt='PCAutomate'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
 <div className='ml-14 mt-10 mr-40 font-sans text-xl'>
   <p>
@@ -53,11 +53,11 @@ function Pc_Automate() {
 </div>
 
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={pc3} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
+<Image src={pc3} alt='PCAutomate'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
 
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={pc4} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
+<Image src={pc4} alt='PCAutomate'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
 
 
@@ -76,7 +76,7 @@ You can get discounts <br/> if you are a custom builder.
   </p>
 </div>
 <div className='flex min-h-screen mt-10'>
-<Image src={pc5} alt='raj' className='ml-10 mt-12 hover:scale-110'/>
+<Image src={pc5} alt='PCAutomate' className='ml-10 mt-12 hover:scale-110'/>
 </div>
  </div></div>
   )

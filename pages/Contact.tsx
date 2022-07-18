@@ -30,22 +30,22 @@ function Contact() {
 
       <div className="m-4 hover:scale-110">
         <a href="https://www.instagram.com/_raj_patel35/">
-      <Image src={insta} height="100px" width="100px"   />
+      <Image src={insta} alt="Insta" height="100px" width="100px"   />
       </a>
       </div>
       <div className="m-4 hover:scale-110">
         <a href='mailto:rajpatel2435@gmail.com'>
-      <Image src={gmail} height="100px" width="100px"   />
+      <Image src={gmail} alt="gmail" height="100px" width="100px"   />
       </a>
       </div>
       <div className="m-4 hover:scale-105">
         <a href="https://www.linkedin.com/in/rajkumar-patel-5b5902222/">
-      <Image src={linkedin} height="100px" width="100px"   />
+      <Image src={linkedin} alt="Linkedin" height="100px" width="100px"   />
       </a>
       </div>
       <div className="m-4 hover:scale-110">
         <a href="https://github.com/rajpatel2435">
-      <Image src={github} height="100px" width="100px"   />
+      <Image src={github} alt="github" height="100px" width="100px"   />
       </a>
       </div>
       </div>

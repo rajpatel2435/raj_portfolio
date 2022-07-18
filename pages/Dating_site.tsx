@@ -38,23 +38,23 @@ function Dating_site() {
   <p className='ml-4 text-2xl mb-6'>VIEW<span className='ml-32 md:ml-96'><a href="https://github.com/rajpatel2435/Dating_site" >Dating site</a> </span> </p>
 </div>
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={datingsite} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
+<Image src={datingsite} alt='datingsite'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
 <div>
   <p>In th</p>
 </div>
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={dating1} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
+<Image src={dating1} alt='datingImage'   height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
 
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={dating2} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
+<Image src={dating2} alt='datingImage'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
 
 
 </div>
 <div className='flex min-h-screen mt-10'>
-<Image src={dating3} alt='raj'   className=''/>
+<Image src={dating3} alt='datingImage'   className=''/>
 </div>
      </div>
 
