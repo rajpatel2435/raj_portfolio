@@ -7,7 +7,7 @@ function Data_sorting() {
   return (
     <div className=' overflow-hidden'>
       <Navbar/>
-                        <div className='text-4xl flex min-h-[80vh] font-extrabold  bg-gradient-to-r from-[#3378FF] to-[#9442FE]  text-white md:text-8xl justify-center items-center'>Data Sorting <span className='hover:scale-125'> 📊️ </span> </div>
+                        <div className='text-4xl flex min-h-[80vh] font-extrabold  bg-gradient-to-r ds text-white md:text-8xl justify-center items-center'>Data Sorting <span className='hover:scale-125'> 📊️ </span> </div>
          <div>   
     <div>
 <h1 className='text-4xl ml-20 md:text-6xl md:ml-[500px] mt-14'>Data Sorting </h1>

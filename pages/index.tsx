@@ -53,15 +53,15 @@ const Home: NextPage = () => {
    <Link ref={Projects} href={"Projects"}>.</Link>  <br/>
       </div>
       <div id="container">
-
+      <div className="panel" id="component">
+          
+        <About />
+        </div>  
         <div className="panel" id="component">
   
         <Projects />
         </div>
-        <div className="panel" id="component">
-          
-        <About />
-        </div>   
+   
      
 
         </div>

@@ -17,6 +17,8 @@ import jquery from './Images/jquery.png'
 import xd from './Images/xd.png'
 import isi from './Images/isi.png'
 import Navbar from './Navbar'
+import Link from 'next/link'
+// import cv from './cv.pdf'
 
 
 function About_info() {
@@ -31,6 +33,10 @@ function About_info() {
         <div className='ml-40 md:ml-24 hover:scale-125'>Hello world <span className=''>🙏</span></div>
         <br />
         <div className='ml-10 text-8xl  md:ml-36'>I am a Web Developer, working in Montreal <br/>
+        {/* <div>
+<a href={cv} download={cv}>
+  <button type='submit'>Get my cv </button></a>
+        </div> */}
         <div className='text-2xl mt-40 p-10 text-zinc-400 mr-10 mb-10'>
           If you are intrested in my work, please feel free to contact me at <a href='mailto:rajpatel2435@gmail.com' className='hover:text-white'>rajpatel2435@gmail.com</a> .
        I'll be glad to more know about you and your projects.
@@ -48,7 +54,7 @@ function About_info() {
       <div className='block ml-36  md:flex md:ml-40 lg:ml-[250px] '>
         <Image src={kaayu} height="200px" width='200px' className=' bg-cover' />
         <div className='-ml-10 mt-10 text-4xl  md:ml-20 lg:ml-60'> WEB Integrator
-        <p className='text-2xl mt-10'> Kaayu Tech,Montreal <br/>Feb 2022- Aug 2022
+        <p className='text-2xl '> Kaayu Tech,Montreal <br/>Feb 2022- Aug 2022
           </p></div>
       </div>
 
@@ -59,8 +65,8 @@ function About_info() {
       <div className='block ml-24 md:flex md:ml-40 lg:ml-[250px]'>
         {/* <Image src={isi} height='100px' width='200px' className=' bg-cover rounded-full ' /> */}
         <Image src={isi}  className=' bg-cover' />
-        <div className='mt-10 text-4xl md:ml-20 lg:ml-60'> WEB Integration 
-        <p className='text-2xl mt-10'> ISI College,Montreal <br/>SEP2020- SEP2022
+        <div className=' text-4xl md:ml-20 lg:ml-60'> WEB Integration 
+        <p className='text-2xl '> ISI College,Montreal <br/>SEP2020- SEP2022
           </p></div>
       </div>
 

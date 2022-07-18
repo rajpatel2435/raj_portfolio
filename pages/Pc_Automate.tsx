@@ -13,7 +13,7 @@ function Pc_Automate() {
   return (
     <div className=' overflow-hidden'>   
 <Navbar/>
-      <div className='text-4xl flex min-h-[80vh] font-extrabold  bg-gradient-to-r from-[#3378FF] to-[#9442FE]  text-black md:text-8xl justify-center items-center'>
+      <div className='text-4xl flex min-h-[80vh] font-extrabold pcA  bg-gradient-to-r from-[#3378FF] to-[#9442FE]  text-black md:text-8xl justify-center items-center'>
        
    
         PC_Automate <span className='hover:scale-125'> 💻</span></div>

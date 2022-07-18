@@ -11,7 +11,7 @@ function Dating_site() {
   return (
     <div className='overflow-hidden'>
 <Navbar/>
-        <div className='text-4xl flex min-h-[80vh] font-extrabold  bg-gradient-to-r from-[#3378FF] to-[#9442FE]  text-white md:text-8xl justify-center items-center'>Dating Site <span className='hover:scale-125'> ❤️️ </span></div>
+        <div className='text-4xl flex min-h-[80vh] font-extrabold dat  text-white md:text-8xl justify-center items-center'>Dating Site <span className='hover:scale-125'> ❤️️ </span></div>
         <div>
 <h1 className='ml-20 text-6xl md:ml-[370px] mt-14'>Find your Partner here</h1>
 
@@ -21,7 +21,7 @@ function Dating_site() {
 
     <p className='ml-4 text-2xl mb-6'>ROLE <span className='ml-28 md:ml-96'>Designer, Developer </span> </p>
   </div>
-  <div className='md;ml-16 border-b-4  border-gray-500 w-[900px]  mt-5'>
+  <div className='md:ml-16 border-b-4  border-gray-500 w-[900px]  mt-5'>
   
 
   <p className='ml-2 text-2xl mb-6'>TECHNOLOGY <span className='ml-8 md:ml-[290px]'>PHP,CSS,HTML,JS,SQL</span> </p>
@@ -40,7 +40,9 @@ function Dating_site() {
 <div className='mt-12 md:ml-16 mr-6'>
 <Image src={datingsite} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
-
+<div>
+  <p>In th</p>
+</div>
 <div className='mt-12 md:ml-16 mr-6'>
 <Image src={dating1} alt='raj'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-125'/>
 </div>
