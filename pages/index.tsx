@@ -57,11 +57,7 @@ const Home: NextPage = () => {
         <Projects />
         </div>
         </div> 
-     <div className="text-xl text-white z-40">
-  
-        <Footer/>
-  
-            </div>
+
     
       </div>
 

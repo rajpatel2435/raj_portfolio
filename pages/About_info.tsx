@@ -32,14 +32,14 @@ function About_info() {
       <div className=" block font-['tahoma'] md:flex md:justify-center md:items-center min-h-screen bg-black text-2xl text-white">
         <div className='ml-40 md:ml-24 hover:scale-125'>Hello world <span className=''>🙏</span></div>
         <br />
-        <div className='ml-10 text-8xl  md:ml-36'>I am a Web Developer, working in Montreal <br/>
+        <div className='ml-10 text-8xl mt-10  md:ml-36'>I am a Web Developer, working in Montreal <br/>
         <div className='ml-[10px]'>
 <a href='https://isimtl365-my.sharepoint.com/:b:/g/personal/rpatel5_isi-montreal_com/EehqR1RIHn9Gp0qMAmSN7doBbCfZu5-CL8TKnh_nsb4lTg?e=S2mfxc' >
   <button type='submit' className='p-5 bg-green-500 rounded-full text-2xl hover:bg-yellow-500 '>Resume </button></a>
         </div>
         <div className='text-2xl mt-40 p-10 text-zinc-400 mr-10 mb-10'>
           If you are intrested in my work, please feel free to contact me at <a href='mailto:rajpatel2435@gmail.com' className='hover:text-white'>rajpatel2435@gmail.com</a> .
-       I'll be glad to more know about you and your projects.
+       I'll be glad to  know more about you and your projects.
      </div>
          </div>
        
