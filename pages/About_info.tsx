@@ -1,5 +1,5 @@
 import React from 'react'
-import arrow from './Images/arrow.png'
+
 import Image from 'next/image'
 import kaayu from './Images/favicon.png'
 import html from './Images/html.png'
@@ -17,7 +17,7 @@ import jquery from './Images/jquery.png'
 import xd from './Images/xd.png'
 import isi from './Images/isi.png'
 import Navbar from './Navbar'
-import Link from 'next/link'
+
 // import cv from './cv.pdf'
 
 
