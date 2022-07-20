@@ -91,7 +91,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={CSS}  alt="css" className='img  rounded-full  hover:scale-90' />
+              <Image src={CSS}  alt="css"  height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
               <h2 className=''>CSS<span><br />95%</span></h2>
 
               {/* </div> */}
