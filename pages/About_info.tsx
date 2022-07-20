@@ -1,11 +1,10 @@
 import React from 'react'
-
 import Image from 'next/image'
 import kaayu from './Images/favicon.png'
 import html from './Images/html.png'
 import js from './Images/js.png'
 import sql from './Images/mysql.svg'
-
+import CSS from './Images/CSS.png'
 import react from './Images/react.png'
 import next from './Images/next.png'
 import sass from './Images/sass.png'
@@ -17,7 +16,7 @@ import jquery from './Images/jquery.png'
 import xd from './Images/xd.png'
 import isi from './Images/isi.png'
 import Navbar from './Navbar'
-import CSS from './Images/CSS.png'
+
 // import cv from './cv.pdf'
 
 
@@ -81,7 +80,6 @@ function About_info() {
               <Image src={html}  alt="Html" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>HTML<span><br />95%</span></h2>
 
-              {/* </div> */}
             </div>
 
           </div>
@@ -91,10 +89,9 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={CSS}  alt="css"  height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
-              <h2 className=''>CSS<span><br />95%</span></h2>
+              <Image src={xd}  alt="css"  height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
+              <h2>CSS<span><br />95%</span></h2>
 
-              {/* </div> */}
             </div>
 
           </div>
@@ -106,7 +103,7 @@ function About_info() {
               <Image src={js} alt="JS" height='200px' width='200px' className='img    hover:scale-90' />
               <h2 className=''>JS<span><br />89%</span></h2>
 
-              {/* </div> */}
+  
             </div>
 
           </div>
@@ -154,7 +151,7 @@ function About_info() {
               <Image src={next} alt="Next" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>NEXT Js<span><br />80%</span></h2>
 
-              {/* </div> */}
+        
             </div>
 
           </div>
