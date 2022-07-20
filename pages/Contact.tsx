@@ -4,15 +4,17 @@ import github from "./Images/github.png"
 import insta from './Images/ig-instagram.png'
 import gmail from './Images/gmail.png'
 import linkedin from './Images/linkedin-app.png'
-import { link } from "fs/promises";
-import Navbar from "./Navbar";
-import Link from "next/link";
+
+import Head from "next/head";
+import CNavbar from "./Cnavbar";
 
 function Contact() {
   return (
     <div className="flex min-h-screen bg-[#1c1c1c] border-[9px] border-green-400">
- 
-      <Navbar/>
+ <Head>
+ <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Fascinate&family=Josefin+Sans:wght@600&family=Luckiest+Guy&family=Potta+One&family=Rubik+Moonrocks&family=Sigmar+One&display=swap" rel="stylesheet" />
+ </Head>
+      <CNavbar/>
       <div className=' font-[Aclonica] text-[60px] mt-24  ml-10  text-white'>
         Want to <br />
         start <br />
@@ -26,7 +28,7 @@ function Contact() {
         </div>
 
       </div>
-      <div className=" md:flex mt-60 m-4 z-10">
+      <div className=" md:flex mt-60  z-10 lg:ml-36">
 
       <div className="m-4 hover:scale-110">
         <a href="https://www.instagram.com/_raj_patel35/">
@@ -49,9 +51,7 @@ function Contact() {
       </a>
       </div>
       </div>
-      <style>
-      @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Potta+One&family=Rubik+Moonrocks&display=swap');</style>
-    </div>
+     </div>
   );
 }
 
