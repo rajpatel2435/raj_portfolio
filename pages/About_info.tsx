@@ -5,7 +5,7 @@ import kaayu from './Images/favicon.png'
 import html from './Images/html.png'
 import js from './Images/js.png'
 import sql from './Images/mysql.svg'
-import css from './images/css.png'
+
 import react from './Images/react.png'
 import next from './Images/next.png'
 import sass from './Images/sass.png'
@@ -17,7 +17,7 @@ import jquery from './Images/jquery.png'
 import xd from './Images/xd.png'
 import isi from './Images/isi.png'
 import Navbar from './Navbar'
-
+import CSS from './Images/CSS.png'
 // import cv from './cv.pdf'
 
 
@@ -91,7 +91,7 @@ function About_info() {
         <div className='ml-24 '>
           <div className="box">
             <div className="content ">
-              <Image src={css}  alt="CSS"className='img  rounded-full  hover:scale-90' />
+              <Image src={CSS}  alt="CSS" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>CSS<span><br />95%</span></h2>
 
               {/* </div> */}
