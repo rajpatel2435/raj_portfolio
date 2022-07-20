@@ -1,14 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Potta+One&family=Rubik+Moonrocks&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,Aclonica;
 }
 .fo{
   font-family: Aclonica;
@@ -135,12 +135,15 @@ a {
 }
 
 
-.box:hover , .box3:hover {
+.box:hover  {
  
   border: 6px solid green;
   background-color: black;
   color: white;
 }
+
+
+
 .box:hover .content .img,.box3:hover .content .img{
   opacity: 0;
 
