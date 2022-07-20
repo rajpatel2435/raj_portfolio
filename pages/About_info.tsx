@@ -72,9 +72,9 @@ function About_info() {
       <div className='ml-16 mt-10 mb-10 font-bold text-6xl md:ml-[340px] lg:ml-[510px] p-2   bg-blue-900 text-white w-[310px] '>
        <p className='ml-16'> Skills </p>
       </div>
-      <div className='block md:ml-48 mt-10 m-5 lg:flex lg:ml-1 cursor-grab'>
+      <div className=' block md:ml-48 mt-10 m-5 lg:flex lg:ml-1 cursor-grab'>
         {/* <div className='hovr '> */}
-        <div className='ml-24  mb-3 mt-3 md:ml-24 lg:ml-1'>
+        <div className='ml-10  mb-3 mt-3 md:ml-24 lg:ml-1'>
           <div className="box">
             <div className="content ">
               <Image src={html}  alt="Html" className='img  rounded-full  hover:scale-90' />
@@ -86,7 +86,7 @@ function About_info() {
 
         </div>
 
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 '>
           <div className="box">
             <div className="content ">
               <Image src={CSS}  alt="css"  height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
@@ -97,7 +97,7 @@ function About_info() {
           </div>
 
         </div>
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 mt-4 '>
           <div className="box">
             <div className="content ">
               <Image src={js} alt="JS" height='200px' width='200px' className='img    hover:scale-90' />
@@ -116,7 +116,7 @@ function About_info() {
 
      
       <div>
-      <div className=' ml-24 mb-3 mt-3  '>
+      <div className=' ml-10 md:ml-24 mb-3 mt-3  '>
           <div className=" box">
             <div className="content ">
               <Image src={sql}  alt="SQL"height='200px' width='200px' className=' img hover:scale-90' />
@@ -132,7 +132,7 @@ function About_info() {
       </div>
       </div>
       <div className='block md:ml-48 m-5 lg:flex lg:ml-1 cursor-grab'>
-      <div className='ml-20 lg:ml-1'>
+      <div className='ml-10 md:ml-20 lg:ml-1'>
           <div className="box">
             <div className="content ">
               <Image src={react} alt="React" className='img  rounded-full  hover:scale-90' />
@@ -145,7 +145,7 @@ function About_info() {
 
         </div>
 
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 '>
           <div className="box">
             <div className="content ">
               <Image src={next} alt="Next" className='img  rounded-full  hover:scale-90' />
@@ -158,7 +158,7 @@ function About_info() {
 
         </div>
 
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 '>
           <div className="box r2">
             <div className="content ">
               <Image src={sass}  alt="sass" height='200PX' width='200px' className='img   hover:scale-90' />
@@ -170,7 +170,7 @@ function About_info() {
           </div>
 
         </div>
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 '>
           <div className="box">
             <div className="content ">
               <Image src={php} alt="PHP" height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
@@ -184,7 +184,7 @@ function About_info() {
         </div>
       </div>
       <div className='block md:ml-48 m-5 lg:flex  cursor-grab'>
-      <div className='ml-24 mt-3 mb-3  lg:-ml-44 '>
+      <div className='ml-10 md:ml-24 mt-3 mb-3  lg:-ml-44 '>
           <div className="box">
             <div className="content ">
               <Image src={github} alt="Github" className='img  rounded-full  hover:scale-90' />
@@ -197,7 +197,7 @@ function About_info() {
 
         </div>
 
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 '>
           <div className="box">
             <div className="content ">
               <Image src={wordpress} alt="wordPress" className='img  rounded-full  hover:scale-90' />
@@ -209,7 +209,7 @@ function About_info() {
           </div>
 
         </div>
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 mt-4 '>
           <div className="box">
             <div className="content mt-16 items-center ">
               <Image src={tailwind} alt="tailwind" className='img rounded-full ' />
@@ -221,7 +221,7 @@ function About_info() {
           </div>
 
         </div>
-        <div className='ml-24 '>
+        <div className='ml-10 md:ml-24 mt-10'>
           <div className="box">
             <div className="content ">
               <Image src={jquery} alt="jquery" className='img  rounded-full  hover:scale-90' />
@@ -236,7 +236,7 @@ function About_info() {
       
       </div>
       <div className='block md:ml-48 m-5 lg:flex  cursor-grab'>
-      <div className='ml-24 lg:-ml-40 md:ml-24 mb-3 mt-3'>
+      <div className='ml-10  lg:-ml-40 md:ml-24 mb-3 mt-3'>
           <div className="box">
             <div className="content ">
               <Image src={xd} alt="XD" className='img  rounded-full  hover:scale-90' />
