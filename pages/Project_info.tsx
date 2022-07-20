@@ -10,6 +10,7 @@ import Link from 'next/link'
 import Nav from './Navbar'
 import Hnavbar from './Hnavbar'
 
+
 const Home: NextPage = () => {
     gsap.registerPlugin(ScrollTrigger);
     useEffect(() => {
@@ -26,8 +27,8 @@ const Home: NextPage = () => {
    
           pin: true,
          scrub: 1,
-         snap: 1 / (component.length-1),
-         end: () => "+=" +container.offsetWidth,
+         snap:  1/ (component.length-1),
+         end: () => "+=" +container.offsetHeight,
    
        },
       
@@ -39,19 +40,19 @@ const Home: NextPage = () => {
           <div id="container" className='hover:scale-125' >
         <div className=" border-green-500 border-[6px] lg:text-8xl panel flex justify-center items-center text-4xl dat text-white font-bold  transition ease-in-out  hover:scale-125  " id="component">
  
-        <Link href="Dating_site" ref={Dating_site} scroll={false}>
+        <Link href="Dating_site" ref={Dating_site} >
 
         
         <a className=''> Dating site</a>
          </Link>
         </div>
         <div className=" border-yellow-500 border-[6px] lg:text-8xl panel flex justify-center items-center bg-black text-green-500 text-4xl transition ease-in-out font-extrabold  hover:scale-125" id="component">
-          <Link href='Data_sorting' ref={Data_sorting} scroll={false}>
-          <a className=' hover:'>Data_Sorting</a>
+          <Link href='Data_sorting' ref={Data_sorting} >
+          <a className='hover:'>Data_Sorting</a>
         </Link>
         </div>
         <div  className=" pc_A lg:text-8xl panel flex justify-center items-center bg-[#7d50b9] text-4xl pcA transition ease-in-out  hover:scale-125" id="component">
-          <Link href='Pc_Automate' ref={Pc_Automate} scroll={false}>
+          <Link href='Pc_Automate' ref={Pc_Automate} >
             <a>PC_Automate</a>
           </Link>
         </div>   
