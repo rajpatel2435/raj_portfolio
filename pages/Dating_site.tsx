@@ -60,10 +60,10 @@ function Dating_site() {
 - Moreover the premium user can chat and send <b>WINKS</b> to other people. <br/>
 - Premium users will also know if someone Added him to their favorite list or removed from it. <br/>
 - The chat is private and, the <i>chat color changes</i> when the other user reads your message. <br/>
-- It also contains a <i>"Are you famous?"</i>  page where you can see if you are in someones favorite list. <br/>
+- It also contains a <i>&quot;Are you famous?&quot;</i>  page where you can see if you are in someones favorite list. <br/>
 - It also sorts the people: 
 <div className='ml-10'>
-1) According to <i>the age</i> <br/> 2)According to <i>the Popularity(more winks)</i> <br/>  3)According to <i>the city</i>
+1) According to <i>the age</i> <br/> 2)According to <i>the Popularity (more winks)</i> <br/>  3)According to <i>the city</i>
 </div>
 
   </p>

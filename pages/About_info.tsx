@@ -39,7 +39,7 @@ function About_info() {
         </div>
         <div className='text-2xl mt-40 p-10 text-zinc-400 mr-10 mb-10'>
           If you are intrested in my work  please feel free to contact me at <a href='mailto:rajpatel2435@gmail.com' className='hover:text-white'>rajpatel2435@gmail.com</a> .
-       I'll be glad to  know more about you and your projects.
+       I&apos;ll be glad to  know more about you and your projects.
      </div>
          </div>
        
@@ -70,7 +70,7 @@ function About_info() {
           </p></div>
       </div>
 
-      <div className='ml-16 mt-10 mb-10 font-bold text-6xl md:ml-[340px] lg:ml-[510px] p-2   bg-blue-900 text-white w-[310px] rounded-2xl'>
+      <div className='ml-16 mt-10 mb-10 font-bold text-6xl md:ml-[340px] lg:ml-[510px] p-2   bg-blue-900 text-white w-[310px] '>
        <p className='ml-16'> Skills </p>
       </div>
       <div className='block md:ml-48 mt-10 m-5 lg:flex lg:ml-1 cursor-grab'>
