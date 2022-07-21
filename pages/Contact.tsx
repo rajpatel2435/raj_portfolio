@@ -15,12 +15,12 @@ function Contact() {
  <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Fascinate&family=Josefin+Sans:wght@600&family=Luckiest+Guy&family=Potta+One&family=Rubik+Moonrocks&family=Sigmar+One&display=swap" rel="stylesheet" />
  </Head>
       <CNavbar/>
-      <div className=' font-[Aclonica] text-[60px] mt-10 md:mt-14 ml-2 mr-2 md:ml-10 lg:mt-24 text-white xl:mt-36'>
+      <div className=' font-[Aclonica] text-[60px] mt-10 md:mt-14 ml-2 mr-2 md:ml-10 lg:mt-24 text-white xl:mt-28'>
         Want to <br />
         start <br />
         something <br />
         intresting? <br />
-        <div className="text-[16px] font-[Aclonica]   lg:mt-2 xl:mt-20">
+        <div className="text-[16px] font-[Aclonica]   lg:mt-2 xl:mt-10">
           Feel free to contact me if you are looking for the web
           <br /> developer. I have worked on projects involving the development
           <br /> and implementation of websites for non-profit organizations
