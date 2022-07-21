@@ -43,19 +43,31 @@ min-height: 100vh;
   }
 } */
 /* @media only screen and (min-width: 600px){ */
-.raj{
+  @media only screen and (min-width: 768px){.raj{
   background-image: url('../pages/Images/IMG_1573.jpg');
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
-  background-position:center;
+  /* background-position:center; */
  
 
-} 
+}
+  } 
 
-
+  @media only screen and (max-width: 768px){
+    .raj{
+    background-image: url('../pages/Images/IMG_1573.jpg');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center; 
+  }
+  }
+@media only screen and (min-width: 768px){
 .front{
   background-image: url('../pages/Images/front_Raj.JPG');
   background-repeat:no-repeat;
@@ -63,8 +75,19 @@ min-height: 100vh;
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
-  background-position:center;
-  
+  /* background-position:center; */
+}
+}
+@media only screen and (max-width: 768px){
+  .front{  background-image: url('../pages/Images/front_Raj.JPG');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: center;
+
+  }
 }
 
 
