@@ -17,31 +17,34 @@ function Pc_Automate() {
       <div className='text-4xl flex min-h-[80vh] font-extrabold   bg-black text-white md:text-8xl justify-center items-center'>
        
    
-        PC_Automate <span className='hover:scale-125'> 💻</span></div>
+        PC_Automate <div className='hover:scale-125'> 💻</div></div>
     <div>
 <h1 className='text-4xl ml-20 md:text-6xl md:ml-[400px] mt-14 p-3 bg-neutral-900 text-white'>Build your own 🖥️</h1>
 
-<div className=' lg:ml-40 md:ml-24  mt-14 ml-10'>
-  <div className=' md:ml-16 border-b-4  border-gray-500 w-[900px] mt-5'>
+<div className=' lg:ml-44 md:ml-24  mt-14 ml-10'>
+  <div className=' md:ml-16 border-b-4  border-gray-500 w-[800px] mt-5'>
   
 
-    <p className='ml-4 text-2xl mb-6'>ROLE <span className='ml-32 md:ml-44 lg:ml-96'>Designer, Developer </span> </p>
+    <div className='ml-4 text-2xl mb-6'>ROLE <div className=' md:-mt-8 md:ml-44 lg:ml-96'>Designer, Developer </div> </div>
   </div>
-  <div className='md:ml-16 border-b-4  border-gray-500 w-[900px]  mt-5'>
+  <div className='md:ml-16 border-b-4  border-gray-500 w-[800px]  mt-5'>
   
 
-  <p className='ml-[16px] text-2xl mb-6'>TECHNOLOGY <span className='ml-8 md:ml-20 lg:ml-[290px]'>PHP,CSS,HTML,JS,SQL</span> </p>
+  <div className='ml-[17px] text-2xl mb-6'>TECHNOLOGY <div className=' md:-mt-8 md:ml-44 lg:ml-[382px]'>PHP, CSS, HTML, JS, SQL</div> </div>
 </div>
-<div className=' md:ml-16 border-b-4  border-gray-500 w-[900px] mt-5 '>
+<div className=' md:ml-16 border-b-4  border-gray-500 w-[800px] mt-5 '>
   
 
-  <p className='ml-[18px] text-2xl mb-6'>YEAR<span className='ml-32  md:ml-44 lg:ml-[390px]'>2021 </span> </p>
+  <div className='ml-[18px] text-2xl mb-6'>YEAR<div className='md:-mt-8 md:ml-44 lg:ml-[380px]'>2021 </div> </div>
 </div>
 
-<div className='md:ml-16 border-b-4  border-gray-500 w-[900px] mt-5 '>
+<div className='md:ml-16 border-b-4  border-gray-500 w-[800px] mt-5 '>
   
 
-  <p className='ml-[18px] text-2xl mb-6'>VIEW<span className='ml-32 md:ml-44 lg:ml-[389px]'><a href="https://github.com/rajpatel2435/Pc_Automate" >Pc Automate</a> </span> </p></div>
+  <div className='ml-[18px] text-2xl mb-6'>VIEW<div className=' md:-mt-8 md:ml-44 lg:ml-[380px] hover:text-pink-700'><a href="https://github.com/rajpatel2435/Pc_Automate" >Pc Automate</a>
+   </div>
+    </div>
+    </div>
 
 
 <div className='mt-12 md:mr-36 lg:ml-16 mr-6'>
@@ -50,7 +53,7 @@ function Pc_Automate() {
 
 
 <div className='ml-14 mt-10 mr-10 md:mr-40 font-sans text-xl bg-black text-white p-10'>
-<p className='text-xl  '>
+<div className='text-xl  '>
   Building your own PC and need thoughts 🤔 on where to get everything rolling? Investigate our 
    construct <br/> guides 
   which cover a variety of system products and are in your budget. We also provide 🖥️ <br/> which are completely customized by our skilled engineers according to the user&apos;s needs. Here are the key  features of the website.
@@ -63,7 +66,7 @@ function Pc_Automate() {
 -You can get discounts  if you are a custom builder.<br/>
 </div>
 
-  </p>
+  </div>
 
  </div>
 <div className='mt-12 md:mr-36 lg:ml-16'>
@@ -74,12 +77,12 @@ function Pc_Automate() {
 </div>
 </div>
 <div className='mt-10 text-2xl md:ml-52 mr-10  md:mr-36 p-10 text-white bg-green-500   rounded-md'>
-<p>
+<div>
   Our project is PC Automate. This site is based on an useful idea in a way in which users will be able  to find and buy customized computer of their choices much easier as compared to other tools on the internet, even though there are numerous number of websites which help users to get customized machines of their choices but after analyzing we found that they hardly upload or add new products. Which is not the case on our site. In this website we basically have 3 modules. The first module contains the admin module, the second module contains the builder&apos;s module who will be responsible to customize the parts and last but not least the third module contains the user&apos;s point of view. Who will login as a client and will be able to find the products of their needs.
-  </p>
+  </div>
 </div>
-<div className='flex min-h-screen mt-10'>
-<Image src={pc5} alt='PCAutomate' className='ml-10 mt-12 hover:scale-110'/>
+<div className='mt-12 ml-10 mr-6 md:min-w-fit md:ml-0 md:mr-0 '>
+<Image src={pc5} alt='datingImage'  className='ml-10 mt-12  hover:scale-105'/>
 </div>
  </div></div>
   )

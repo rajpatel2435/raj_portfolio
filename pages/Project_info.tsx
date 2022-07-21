@@ -51,7 +51,7 @@ const Home: NextPage = () => {
           <a className='hover:'>Data_Sorting</a>
         </Link>
         </div>
-        <div  className=" pc_A lg:text-8xl panel flex justify-center items-center bg-[#7d50b9] text-4xl pcA transition ease-in-out  hover:scale-125" id="component">
+        <div  className=" pc_A lg:text-8xl panel flex justify-center items-center text-4xl pcA transition ease-in-out  hover:scale-125" id="component">
           <Link href='Pc_Automate' ref={Pc_Automate} >
             <a>PC_Automate</a>
           </Link>
