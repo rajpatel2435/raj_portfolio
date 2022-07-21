@@ -15,18 +15,18 @@ function Contact() {
  <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Fascinate&family=Josefin+Sans:wght@600&family=Luckiest+Guy&family=Potta+One&family=Rubik+Moonrocks&family=Sigmar+One&display=swap" rel="stylesheet" />
  </Head>
       <CNavbar/>
-      <div className=' font-[Aclonica] text-[60px] mt-24 md:mt-36 ml-2 mr-2 md:ml-10 text-white'>
+      <div className=' font-[Aclonica] text-[60px] mt-10 md:mt-14 ml-2 mr-2 md:ml-10 lg:mt-24 text-white xl:mt-36'>
         Want to <br />
         start <br />
         something <br />
         intresting? <br />
-        <div className="text-[16px] font-[Aclonica] mt-10 md:mt-32">
+        <div className="text-[16px] font-[Aclonica]   lg:mt-2 xl:mt-20">
           Feel free to contact me if you are looking for the web
           <br /> developer. I have worked on projects involving the development
           <br /> and implementation of websites for non-profit organizations
           <br /> as well as worked as a freelance web developer.
         </div>
-        <div className="ml-24  md:flex mt-24  z-10 md:ml-[500px] md:-mt-[450px]">
+        <div className="ml-24  md:flex mt-24  z-10 md:ml-[500px] md:-mt-[350px]">
 
 <div className="m-4 hover:scale-110">
   <a href="https://www.instagram.com/_raj_patel35/">
