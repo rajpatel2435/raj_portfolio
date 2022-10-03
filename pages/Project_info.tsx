@@ -53,18 +53,18 @@ const Home: NextPage = () => {
  <Link href="Dating_site" ref={Dating_site} >
 
  
- <a className=''> Dating site</a>
+ <a className='hover:text-green-600'> Dating site</a>
   </Link>
  </div>
 
         <div className=" border-yellow-500 border-[6px] lg:text-8xl panel flex justify-center dsa items-center bg-black text-green-500 text-4xl transition ease-in-out font-extrabold hover:text-green" id="component">
           <Link href='Data_sorting' ref={Data_sorting} >
-          <a className='hover:'>Data_Sorting</a>
+          <a className='hover:text-green-600'>Data_Sorting</a>
         </Link>
         </div>
         <div  className=" pc_A lg:text-8xl panel flex justify-center items-center text-4xl pcA transition ease-in-out  hover:scale-125" id="component">
           <Link href='Pc_Automate' ref={Pc_Automate} >
-            <a>PC_Automate</a>
+            <a className='hover:text-green-600'>PC_Automate</a>
           </Link>
         </div>   
        </div>
