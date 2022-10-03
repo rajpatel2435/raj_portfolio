@@ -38,15 +38,26 @@ const Home: NextPage = () => {
     <div className=' overflow-x-hidden '>
 <Hnavbar/>
           <div id="container" className='hover:scale-125' >
-        <div className=" border-green-500 border-[6px] lg:text-8xl panel flex justify-center items-center text-4xl dat text-white font-bold  transition ease-in-out  hover:scale-125  " id="component">
- 
-        <Link href="Dating_site" ref={Dating_site} >
+    
+        <div className=" border-green-500 border-[6px] lg:text-8xl panel flex justify-center items-center text-4xl startup text-white bg-black font-bold  transition ease-in-out  hover:scale-125  " id="component">
 
-        
-        <a className=''> Dating site</a>
+        <Link href="https://montrealits.com/" >
+
+    
+        <a className=''> Montreal IT Services</a>
          </Link>
         </div>
-        <div className=" border-yellow-500 border-[6px] lg:text-8xl panel flex justify-center items-center bg-black text-green-500 text-4xl transition ease-in-out font-extrabold  hover:scale-125" id="component">
+
+        <div className=" border-green-500 border-[6px] lg:text-8xl panel flex justify-center items-center text-4xl dat text-white font-bold  transition ease-in-out  hover:scale-125  " id="component">
+ 
+ <Link href="Dating_site" ref={Dating_site} >
+
+ 
+ <a className=''> Dating site</a>
+  </Link>
+ </div>
+
+        <div className=" border-yellow-500 border-[6px] lg:text-8xl panel flex justify-center dsa items-center bg-black text-green-500 text-4xl transition ease-in-out font-extrabold  hover:scale-125" id="component">
           <Link href='Data_sorting' ref={Data_sorting} >
           <a className='hover:'>Data_Sorting</a>
         </Link>

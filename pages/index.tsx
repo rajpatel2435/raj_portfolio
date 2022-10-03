@@ -11,7 +11,7 @@ import Link from "next/link";
 
 import Hnavbar from "./Hnavbar";
 import Footer from "./Footer";
-import { Head } from "next/document";
+import  Head  from "next/head";
 
 const Home: NextPage = () => {
    gsap.registerPlugin(ScrollTrigger);
@@ -25,8 +25,6 @@ const Home: NextPage = () => {
     }  
   }, []);
    useEffect(() => {
-
-
      const component = document.querySelectorAll("#component");
      const container =document.querySelector("#container") as HTMLElement;
 

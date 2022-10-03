@@ -156,6 +156,18 @@ min-height: 100vh;
   
 
   
+
+}
+.startup{
+  background-image: url('../pages/Images/startup-1993900_1920.png');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  
+
 }
 .dating3{
   background-image: url('../pages/Images/date3.png');
@@ -200,6 +212,19 @@ min-height: 100vh;
   background-size:cover;
   background-position:center;
   color: whitesmoke;
+
+}
+.dsa{
+  background-image: url('../pages/Images/data-7042739_1280.png');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  
+  color: whitesmoke;
+  font-weight: bolder;
 
 }
 
