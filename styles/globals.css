@@ -194,14 +194,14 @@ min-height: 100vh;
   
 }
 .pros{
-  background-image: url('../pages/Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg');
+  background-image: url('../pages/Images/startup-594090_1920.jpg');
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
   background-position:center;
-  color:white;
+  color:orangered;
 }
 .ds{
   background-image: url('../pages/Images/luke-chesser-JKUTrJ4vK00-unsplash.jpg');
