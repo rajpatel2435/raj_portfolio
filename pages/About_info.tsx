@@ -16,6 +16,9 @@ import jquery from './Images/jquery.png'
 import xd from './Images/xd.png'
 import isi from './Images/isi.png'
 import Navbar from './Navbar'
+import mongo from './Images/Mongo.jpg'
+import express from './Images/express.png'
+import node from './Images/node.png'
 
 // import cv from './cv.pdf'
 
@@ -131,12 +134,75 @@ function About_info() {
 
       </div>
       </div>
+
+
+
+      <div className=' block md:ml-48 mt-10 m-5 lg:flex lg:ml-1 cursor-grab'>
+        {/* <div className='hovr '> */}
+        <div className='ml-10  mb-3 mt-3 md:ml-24 lg:ml-1'>
+          <div className="box">
+            <div className="content ">
+              <Image src={mongo}  alt="Html" className='img  rounded-full  hover:scale-90' />
+             <div className='mt-16'> <h2 className='mt-10' >Mongo<span><br />87%</span></h2>
+             </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className='ml-10 md:ml-24 '>
+          <div className="box">
+            <div className="content ">
+              <Image src={express}  alt="express"  height='200px' width='200px' className='img  rounded-full  hover:scale-90' />
+              <h2>Express<span><br />82%</span></h2>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div className='ml-10 md:ml-24 mt-4 '>
+          <div className="box">
+            <div className="content ">
+              <Image src={react} alt="react js" height='200px' width='200px' className='img    hover:scale-90' />
+              <h2 className=''>React<span><br />89%</span></h2>
+
+  
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+     
+      <div>
+      <div className=' ml-10 md:ml-24 mb-3 mt-3  '>
+          <div className=" box">
+            <div className="content ">
+              <Image src={node}  alt="node"height='200px' width='200px' className=' img hover:scale-90' />
+              <h2 className=''>Node<span><br />82%</span></h2>
+
+              {/* </div> */}
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+
       <div className='block md:ml-48 m-5 lg:flex lg:ml-1 cursor-grab'>
       <div className='ml-10 md:ml-20 lg:ml-1'>
           <div className="box">
             <div className="content ">
-              <Image src={react} alt="React" className='img  rounded-full  hover:scale-90' />
-              <h2 className=''>React<span><br />80%</span></h2>
+              <Image src={xd} alt="React" className='img  rounded-full  hover:scale-90' />
+              <h2 className=''>xd<span><br />80%</span></h2>
 
               {/* </div> */}
             </div>
@@ -221,9 +287,9 @@ function About_info() {
           </div>
 
         </div>
-        <div className='ml-10 md:ml-24 mt-10'>
+        <div className='ml-5 mr-20 md:ml-24 mt-10'>
           <div className="box">
-            <div className="content ">
+            <div className="content">
               <Image src={jquery} alt="jquery" className='img  rounded-full  hover:scale-90' />
               <h2 className=''>JQuery<span><br />80%</span></h2>
 
@@ -235,7 +301,7 @@ function About_info() {
         </div>
       
       </div>
-      <div className='block md:ml-48 m-5 lg:flex  cursor-grab'>
+      {/* <div className='block md:ml-48 m-5 lg:flex  cursor-grab'>
       <div className='ml-10  lg:-ml-40 md:ml-24 mb-3 mt-3'>
           <div className="box">
             <div className="content ">
@@ -243,14 +309,14 @@ function About_info() {
               <h2 className=''>XD<span><br />91%</span></h2>
 
               {/* </div> */}
-            </div>
+            {/* </div> */}
 
-          </div>
+          {/* </div> */}
 
-        </div>
+        {/* </div> */}
      
 
-        </div>
+        {/* </div> */} 
 
 
       </div>
