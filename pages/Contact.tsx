@@ -34,7 +34,7 @@ function Contact() {
 </a>
 </div>
 <div className="m-4 hover:scale-110">
-  <a href='mailto:rajpatel2435@gmail.com'>
+  <a href='mailto:r4jp47e1@gmail.com'>
 <Image src={gmail} alt="gmail" height="100px" width="100px"   />
 </a>
 </div>

@@ -40,7 +40,7 @@ function About_info() {
   <button type='submit' className='p-5 bg-green-500 rounded-full text-2xl hover:bg-yellow-500 '>Resume </button></a>
         </div>
         <div className='text-2xl mt-40 p-10 text-zinc-400 mr-10 mb-10'>
-          If you are intrested in my work  please feel free to contact me at <a href='mailto:rajpatel2435@gmail.com' className='hover:text-white'>rajpatel2435@gmail.com</a> .
+          If you are intrested in my work  please feel free to contact me at <a href='mailto:r4jp47e1@gmail.com' className='hover:text-white'>r4jp47e1@gmail.com</a> .
        I&apos;ll be glad to  know more about you and your projects.
      </div>
          </div>
