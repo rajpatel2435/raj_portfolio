@@ -10,9 +10,9 @@ function Data_sorting() {
                         <div className='text-4xl flex min-h-[80vh] font-extrabold  bg-gradient-to-r ds text-white md:text-8xl justify-center items-center'>Data Sorting <span className='hover:scale-125'> 📊️ </span> </div>
          <div>   
     <div>
-<h1 className='ml-10 font-bold p-5 md:w-[410px] bg-green-500 text-white text-6xl md:ml-[440px] mt-14'>Data Sorting </h1>
+<h1 className='text-xl font-bold p-5 md:w-[710px]  md:text-6xl md:ml-auto md:mr-auto  bg-green-500 text-white  mt-14'>Data Sorting </h1>
 
-<div className=' lg:ml-44 md:ml-24  mt-14 ml-10'>
+<div className=' md:flex md:justify-center md:flex-col md:items-center '>
   <div className=' md:ml-16 border-b-4  border-gray-500 w-[800px] mt-5'>
   
 
@@ -54,7 +54,7 @@ function Data_sorting() {
 </div>
 </div>
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={dataSorting} alt='ds'  height="600px"  width="900px" className='ml-60 mt-12 hover:scale-105'/>
+<Image src={dataSorting} alt='ds'  height="600px"  width="900px" className=' hover:scale-105'/>
 </div>
 </div>
  </div></div>

@@ -18,10 +18,10 @@ function Pc_Automate() {
        
    
         PC_Automate <div className='hover:scale-125'> 💻</div></div>
-    <div>
-<h1 className='text-4xl ml-20 md:text-6xl md:ml-[400px] mt-14 p-3 bg-neutral-900 text-white'>Build your own 🖥️</h1>
+    <div className=''>
+<h1 className='text-xl font-bold p-5 md:w-[710px] bg-black text-white md:text-6xl md:ml-auto md:mr-auto mt-10 '>Build your own 🖥️</h1>
 
-<div className=' lg:ml-44 md:ml-24  mt-14 ml-10'>
+<div className=' md:flex md:justify-center md:flex-col md:items-center '>
   <div className=' md:ml-16 border-b-4  border-gray-500 w-[800px] mt-5'>
   
 
@@ -48,7 +48,7 @@ function Pc_Automate() {
 
 
 <div className='mt-12 md:mr-36 lg:ml-16 mr-6'>
-<Image src={pcAutomate} alt='PCAutomate'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-105'/>
+<Image src={pcAutomate} alt='PCAutomate' className='ml-10 mt-12 hover:scale-105'/>
 </div>
 
 
@@ -81,8 +81,8 @@ function Pc_Automate() {
   Our project is PC Automate. This site is based on an useful idea in a way in which users will be able  to find and buy customized computer of their choices much easier as compared to other tools on the internet, even though there are numerous number of websites which help users to get customized machines of their choices but after analyzing we found that they hardly upload or add new products. Which is not the case on our site. In this website we basically have 3 modules. The first module contains the admin module, the second module contains the builder&apos;s module who will be responsible to customize the parts and last but not least the third module contains the user&apos;s point of view. Who will login as a client and will be able to find the products of their needs.
   </div>
 </div>
-<div className='mt-12 ml-10 mr-6 md:min-w-fit md:ml-0 md:mr-0 '>
-<Image src={pc5} alt='datingImage'  className='ml-10 mt-12  hover:scale-105'/>
+<div className='flex justify-center mt-10 '>
+<Image src={pc5} alt='datingImage'  className='  hover:scale-105'/>
 </div>
  </div></div>
   )

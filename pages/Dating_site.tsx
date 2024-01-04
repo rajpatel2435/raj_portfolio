@@ -13,9 +13,9 @@ function Dating_site() {
 <Navbar/>
         <div className='text-4xl flex min-h-[80vh] font-extrabold dat  text-white md:text-8xl justify-center items-center'>Dating Site <span className='hover:scale-125'> ❤️️ </span></div>
         <div>
-<h1 className='ml-10 font-bold p-5 md:w-[710px] bg-black text-white text-6xl md:ml-[310px] mt-14'>Find your Partner here</h1>
+<h1 className='text-xl font-bold p-5 md:w-[710px] bg-black text-white md:text-6xl md:ml-auto md:mr-auto mt-10 '>Find your Partner here</h1>
 
-<div className=' lg:ml-40 md:ml-24  mt-14 ml-10'>
+<div className=' md:flex md:justify-center md:flex-col md:items-center '>
 <div className=' md:ml-16 border-b-4  border-gray-500 w-[800px] mt-5'>
   
 

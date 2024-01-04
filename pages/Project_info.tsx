@@ -44,27 +44,27 @@ const Home: NextPage = () => {
         <Link href="https://montrealits.com/" >
 
     
-        <a className=''> Montreal IT Services</a>
+ Montreal IT Services
          </Link>
         </div>
 
         <div className=" border-green-500 border-[6px] lg:text-8xl panel flex justify-center items-center text-4xl dat text-white font-bold  transition ease-in-out  hover:scale-125  " id="component">
  
- <Link href="Dating_site" ref={Dating_site} >
+ <Link href="Dating_site" ref={Dating_site} className='hover:text-green-600' >
 
  
- <a className='hover:text-green-600'> Dating site</a>
+  Dating site
   </Link>
  </div>
 
         <div className=" border-yellow-500 border-[6px] lg:text-8xl panel flex justify-center dsa items-center bg-black text-green-500 text-4xl transition ease-in-out font-extrabold hover:text-green" id="component">
-          <Link href='Data_sorting' ref={Data_sorting} >
-          <a className='hover:text-green-600'>Data_Sorting</a>
+          <Link href='Data_sorting' ref={Data_sorting} className='hover:text-green-600'>
+        Data_Sorting
         </Link>
         </div>
         <div  className=" pc_A lg:text-8xl panel flex justify-center items-center text-4xl pcA transition ease-in-out  hover:scale-125" id="component">
-          <Link href='Pc_Automate' ref={Pc_Automate} >
-            <a className='hover:text-green-600'>PC_Automate</a>
+          <Link href='Pc_Automate' ref={Pc_Automate} className='hover:text-green-600' >
+            PC_Automate
           </Link>
         </div>   
        </div>
