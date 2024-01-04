@@ -173,8 +173,7 @@ function About_info() {
               <Image
                 src={pcss}
                 alt="css"
-                height="200px"
-                width="200px"
+           
                 className="img  rounded-full  hover:scale-90"
               />
               <h2>
@@ -193,8 +192,7 @@ function About_info() {
               <Image
                 src={js}
                 alt="JS"
-                height="200px"
-                width="200px"
+        
                 className="img    hover:scale-90"
               />
               <h2 className="">
@@ -215,8 +213,7 @@ function About_info() {
                 <Image
                   src={sql}
                   alt="SQL"
-                  height="200px"
-                  width="200px"
+             
                   className=" img hover:scale-90"
                 />
                 <h2 className="">
@@ -284,8 +281,7 @@ function About_info() {
               <Image
                 src={react}
                 alt="react js"
-                height="200px"
-                width="200px"
+         
                 className="img    hover:scale-90"
               />
               <h2 className="">
@@ -306,8 +302,7 @@ function About_info() {
                 <Image
                   src={node}
                   alt="node"
-                  height="200px"
-                  width="200px"
+     
                   className=" img hover:scale-90"
                 />
                 <h2 className="">
@@ -370,8 +365,7 @@ function About_info() {
               <Image
                 src={sass}
                 alt="sass"
-                height="200PX"
-                width="200px"
+        
                 className="img   hover:scale-90"
               />
               <h2 className="">
@@ -392,8 +386,7 @@ function About_info() {
               <Image
                 src={php}
                 alt="PHP"
-                height="200px"
-                width="200px"
+            
                 className="img  rounded-full  hover:scale-90"
               />
               <h2 className="">
