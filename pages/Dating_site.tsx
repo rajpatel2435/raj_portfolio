@@ -45,7 +45,7 @@ function Dating_site() {
 
 
 <div className='mt-12 md:mr-36 lg:ml-16 mr-6'>
-<Image src={datingsite} alt='datingsite'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-105'/>
+<Image src={datingsite} alt='datingsite'  height={600}  width={900} className='ml-10 mt-12 hover:scale-105'/>
 </div>
 <div className='mt-10 text-2xl mr-10 ml-0 md: lg:mr-36 p-10 text-white bg-blue-900  rounded-md cursor-default'>
 <h1 className=' p-2 border-b-4 border-green-500 '>  # What the project is about?</h1>
@@ -74,11 +74,11 @@ function Dating_site() {
   </div>
 </div>
 <div className='mt-12  md:mr-36 lg:ml-16 mr-6'>
-<Image src={dating1} alt='datingImage'   height="600px"  width="900px" className='ml-10 mt-12 md:mr-36 hover:scale-105'/>
+<Image src={dating1} alt='datingImage'   height="600"  width="900" className='ml-10 mt-12 md:mr-36 hover:scale-105'/>
 </div>
 
 <div className='mt-12 md:mr-36 lg:ml-16 mr-6'>
-<Image src={dating2} alt='datingImage'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-105'/>
+<Image src={dating2} alt='datingImage'  height="600"  width="900" className='ml-10 mt-12 hover:scale-105'/>
 </div>
 
 </div>

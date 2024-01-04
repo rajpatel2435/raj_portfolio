@@ -54,7 +54,7 @@ function Data_sorting() {
 </div>
 </div>
 <div className='mt-12 md:ml-16 mr-6'>
-<Image src={dataSorting} alt='ds'  height="600px"  width="900px" className=' hover:scale-105'/>
+<Image src={dataSorting} alt='ds'  height={600}  width={900}className=' hover:scale-105'/>
 </div>
 </div>
  </div></div>

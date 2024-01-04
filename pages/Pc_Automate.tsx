@@ -70,10 +70,10 @@ function Pc_Automate() {
 
  </div>
 <div className='mt-12 md:mr-36 lg:ml-16'>
-<Image src={pc3} alt='PCAutomate'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-105'/>
+<Image src={pc3} alt='PCAutomate'  height="600"  width="900" className='ml-10 mt-12 hover:scale-105'/>
 </div>
 <div className='mt-12 md:mr-36 lg:ml-16 mr-6'>
-<Image src={pc4} alt='PCAutomate'  height="600px"  width="900px" className='ml-10 mt-12 hover:scale-105'/>
+<Image src={pc4} alt='PCAutomate'  height="600"  width="900" className='ml-10 mt-12 hover:scale-105'/>
 </div>
 </div>
 <div className='mt-10 text-2xl md:ml-52 mr-10  md:mr-36 p-10 text-white bg-green-500   rounded-md'>
