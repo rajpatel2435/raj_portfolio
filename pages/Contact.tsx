@@ -12,9 +12,7 @@ function Contact() {
   return (
     <>
 
- <Head>
- <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Fascinate&family=Josefin+Sans:wght@600&family=Luckiest+Guy&family=Potta+One&family=Rubik+Moonrocks&family=Sigmar+One&display=swap" rel="stylesheet" />
- </Head>
+
       <CNavbar/>
 
      <div className=" min-h-screen bg-[#1c1c1c] border-[9px] border-green-400 overflow-hidden flex flex-col md:flex-row">
